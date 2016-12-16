@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #33312d;
+    border-bottom: #f13502;
+}
+
+.dropdown-menu {
+    background-color: #33312d;
+    color: #f13502;
+}
+
+#chris {
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    transform-style: preserve-3d;
+
+}
+/*animation de l'image chris*/
+@keyframes spinner {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    25% {
+        transform: rotateY(-180deg) rotateX(0deg);
+    }
+    50% {
+        transform: rotateY(-360deg) rotateX(0deg);
+    }
+}
+
+#container {
+    background-image: url("../image/fond1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 700px;
+    width: auto;
+    color: #f13502;
+}
+
+#navbar2 {
+    border: none;
+}
+
+#container a {
+    color: #f13502;
+    margin-left: 5px;
+    border: 1px solid #f13502;
+}
+
+#css {
+    border-radius: 10px 10px 10px;
+}
+
+h3 {
+    color: #f13502;
+}
+
+#container1 {
+    width: auto;
+    height: 800px;
+    background-image: url("../image/fond1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+#titre {
+    margin-top: 50px;
+    text-align: center;
+    color: #f13502;
+}
+
+#carousel-example-generic {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    border: outset 5px #f13502;
+}
+
+.present1 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    color: #f13502;
+}
+
+.titre2 {
+    margin-top: 50px;
+}
+
+$('.carousel').carousel( {
+    interval: 2000
+}
+
+) .row {
+    margin-top: 60px;
+}
+
+h6 {
+    margin-top: 100px;
+}
+
+#presentation1 {
+    text-align: center;
+    background-image: url("../image/fond2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 70%;
+    height: 600px;
+}
+
+#presentation {
+    margin-top: 50px;
+    color: #f13502;
+    margin: auto;
+}
+
+#presentation3 {
+    background-image: url("../image/flamme2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f13502;
+    text-align: center;
+}
+
+.progress {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.checkbox {
+    width: 50px
+}
+
+.inline {
+    display: inline-block;
+}
+
+label {
+    min-width: 120px;
+}
+
+.titleprghp {
+    background: #555;
+    height: 46px;
+    color: #000;
+    font-size: 23px;
+    height: 46px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+    margin: 20px 0 20px;
+}
+
+#contact {
+    background-image: url("../image/flamme2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f13502;
+    text-align: center;
+}
+
+.titre-contact {
+    text-align: center;
+}
+
+#footer {
+    height: 75px;
+    width: auto;
+    background-color: #33312d;
+    color: #f13502;
+    overflow: hidden;
+}
+
+.copyright {
+    margin-top: 25px;
+}
+
+#logo2 {
+    width: 50px;
+    height: 50px;
+    right: 1%;
+    top: 85%;
+    position: fixed;
+    border-radius: 7px 7px 7px 7px;
+    z-index: 100;
+}
+ .carousel-inner img {
+    margin-left: 4%;
+    margin-top: 4%;
+    border: 1px solid black;
+    height: 200px;
+    width: 90%;
+    background: url("");
+    background-position: center;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+ .carousel-inner img:hover {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+    /* IE8 */
+    filter: progid: DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+    /* IE6 and 7 */
+}
+#button{
+  background-color: white;
+  color: #f13502;
+}
